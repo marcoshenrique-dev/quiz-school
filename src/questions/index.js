@@ -5,7 +5,7 @@ export const questions = [
     b: 'letra b',
     c: 'letra c',
     d: 'letra d',
-    response: 'a'
+    response: 'd'
   },
   {
     'quest': 'teste 2',
@@ -40,43 +40,43 @@ export const questions = [
     response: 'd'
   },
   {
-    'quest': 'teste 6',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
-    response: 'a'
-  },
-  {
-    'quest': 'teste 7',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
-    response: 'a'
-  },
-  {
-    'quest': 'teste 8',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
-    response: 'b'
-  },
-  {
-    'quest': 'teste 9',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
+    'quest': 'Quando se iniciou a Segunda Guerra Mundial?',
+    a: '1933',
+    b: '1945',
+    c: '1935',
+    d: '1939',
     response: 'd'
   },
   {
-    'quest': 'teste 10',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
+    'quest': 'A Alemanha propagou a ideologia nazista afim de negar, entre uma das razões, a ridicularização que esta sofreu pelos países vencedores do último grande conflito, com a imposição do (a):',
+    a: 'Doutrina Monroe',
+    b: 'Plano Marshall',
+    c: 'Tratado de Versalhes',
+    d: 'Pacto de Varsóvia',
+    response: 'c'
+  },
+  {
+    'quest': 'Quais foram os países que formaram a aliança militar do Eixo durante a Segunda Guerra Mundial?',
+    a: 'Alemanha, Grã Bretanha, URSS',
+    b: 'Polônia, França e Grã Bretanha',
+    c: 'Alemanha, Japão e Itália',
+    d: 'França, Grã Bretanha, URSS e EUA',
+    response: 'c'
+  },
+  {
+    'quest': 'A Rússia firmou um acordo que estabelecia ausência de ataques entre a Rússia e a Alemanha, denominado:',
+    a: 'Pacto de Varsóvia',
+    b: 'Pacto Germano-Soviético',
+    c: 'Tratado de Methuen',
+    d: 'Tratado de Berlim',
+    response: 'b'
+  },
+  {
+    'quest': 'A Segunda Guerra Mundial estendeu-se por:',
+    a: 'Sete anos',
+    b: 'Seis anos',
+    c: 'Quatro anos',
+    d: 'Oito anos',
     response: 'b'
   },
   {
