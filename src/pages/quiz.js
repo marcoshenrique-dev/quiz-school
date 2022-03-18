@@ -108,22 +108,22 @@ function Quiz() {
 
       <Flex flexDirection='column' marginTop='20%' width='90%'>
 
-        <Button marginBottom='10px' onClick={() => setSelected('a')} height='45px' fontWeight='medium' color={selected === 'a' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'a' ? 'transparent' : 'gray.200'} colorScheme={selected === 'a' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
+        <Button whiteSpace='normal'  marginBottom='10px' onClick={() => setSelected('a')} height='auto' padding='10px' fontWeight='medium' color={selected === 'a' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'a' ? 'transparent' : 'gray.200'} colorScheme={selected === 'a' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
           <Tag marginRight='8px' borderRadius='full' background='blue.500' color='white'>A</Tag>
           {questions[progress - 1].a}
         </Button>
 
-        <Button marginBottom='10px' onClick={() => setSelected('b')} height='45px' fontWeight='medium' color={selected === 'b' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'b' ? 'transparent' : 'gray.200'} colorScheme={selected === 'b' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
+        <Button padding='10px'  whiteSpace='normal' marginBottom='10px' onClick={() => setSelected('b')} height='auto' fontWeight='medium' color={selected === 'b' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'b' ? 'transparent' : 'gray.200'} colorScheme={selected === 'b' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
           <Tag marginRight='8px' borderRadius='full' background='blue.500' color='white'>B</Tag>
           {questions[progress - 1].b}
         </Button>
 
-        <Button marginBottom='10px' onClick={() => setSelected('c')} height='45px' fontWeight='medium' color={selected === 'c' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'c' ? 'transparent' : 'gray.200'} colorScheme={selected === 'c' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
+        <Button padding='10px'  whiteSpace='normal' marginBottom='10px' onClick={() => setSelected('c')} height='auto' fontWeight='medium' color={selected === 'c' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'c' ? 'transparent' : 'gray.200'} colorScheme={selected === 'c' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
           <Tag marginRight='8px' borderRadius='full' background='blue.500' color='white'>C</Tag>
           {questions[progress - 1].c}
         </Button>
 
-        <Button marginBottom='10px' onClick={() => setSelected('d')} height='45px' fontWeight='medium' color={selected === 'd' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'd' ? 'transparent' : 'gray.200'} colorScheme={selected === 'd' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
+        <Button padding='10px'  whiteSpace='normal' marginBottom='10px' onClick={() => setSelected('d')} height='auto' fontWeight='medium' color={selected === 'd' ? 'white' : 'black'} border='1px solid' borderColor={selected === 'd' ? 'transparent' : 'gray.200'} colorScheme={selected === 'd' ? 'cyan': 'whiteAlpha'} display='flex' justifyContent='left' textAlign='left' width='100%'>
           <Tag marginRight='8px' borderRadius='full' background='blue.500' color='white'>D</Tag>
           {questions[progress - 1].d}
         </Button>
