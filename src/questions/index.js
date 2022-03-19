@@ -1,43 +1,43 @@
 export const questions = [
   {
-    'quest': 'teste 1',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
+    'quest': 'Dos fenômenos abaixo citados, assinale aquele que é considerado como o causador da Primeira Guerra Mundial',
+    a: 'O assassinato da família imperial russa',
+    b: 'A queda do Muro de Berlim',
+    c: 'O descumprimento do Tratado de Versalhes por parte da Alemanha',
+    d: 'O assassinato do arquiduque Francisco Ferdinando, herdeiro do trono austríaco',
     response: 'd'
   },
   {
-    'quest': 'teste 2',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
+    'quest': 'A Primeira Guerra Mundial foi um conflito de amplas proporções que envolveu os principais países europeus, além de países de outros continentes. A respeito da Primeira Guerra Mundial, assinale a opção correta',
+    a: 'Os Estados Unidos da América não participaram dessa guerra',
+    b: 'A Alemanha foi responsabilizada por essa guerra',
+    c: 'O Império Otomano foi um dos países vitoriosos nessa guerra',
+    d: 'A Inglaterra foi um dos membros da Tríplice Aliança',
     response: 'b'
   },
   {
-    'quest': 'teste 3',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
+    'quest': 'Uma das maiores batalhas da Primeira Guerra Mundial foi travada em:',
+    a: 'Verdun',
+    b: 'Ardenas',
+    c: 'Berlim',
+    d: 'Leningrado',
+    response: 'a'
+  },
+  {
+    'quest': 'Quanto às imposições militares que o Tratado de Versalhes realizou sobre a Alemanha, selecione a alternativa INCORRETA',
+    a: 'Alemanha ficou proibida de ter marinha de guerra',
+    b: 'Alemanha ficou proibida de ter aviação de guerra',
+    c: 'A Alemanha manteve suas instalações militares na Renânia em troca de devolver a Alsácia-Lorena',
+    d: 'A Alemanha ficou limitada ao máximo de 100 mil soldados',
     response: 'c'
   },
   {
-    'quest': 'teste 4',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
-    response: 'c'
-  },
-  {
-    'quest': 'teste 5',
-    a: 'letra a',
-    b: 'letra b',
-    c: 'letra c',
-    d: 'letra d',
-    response: 'd'
+    'quest': 'A Primeira Guerra Mundial teve como estopim, como já foi concluído, o assassinato do arquiduque austríaco Francisco Ferdinando. O responsável por esse ato foi:',
+    a: 'Gavrilo Princip',
+    b: 'Alfred von Schlieffen',
+    c: 'Otto von Bismarck',
+    d: 'Alfred Dreyfus',
+    response: 'a'
   },
   {
     'quest': 'Quando se iniciou a Segunda Guerra Mundial?',
